@@ -1,0 +1,6 @@
+{
+  "name": "Website Resmi Pondok Pesantren Semi Modern",
+  "description": "Website profil resmi Pondok Pesantren Semi Modern dengan kurikulum terpadu Al-Qur'an, kitab kuning, pendidikan formal, penguasaan bahasa, dan wawasan teknologi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

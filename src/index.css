@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-emerald-main: #075B46;
+    --color-deep-green: #063D32;
+    --color-soft-cream: #F8F6EF;
+    --color-gold-accent: #C6A15B;
+    --color-dark-text: #202923;
+    --color-secondary-text: #68736D;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--color-dark-text);
+    background-color: var(--color-soft-cream);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .font-editorial {
+    font-family: 'Lora', Georgia, serif;
+  }
+}
+
+/* Subtle geometric Islamic motif texture */
+.bg-islamic-grid {
+  background-image: radial-gradient(rgba(7, 91, 70, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-islamic-stars {
+  background-image: radial-gradient(rgba(198, 161, 91, 0.09) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+}
